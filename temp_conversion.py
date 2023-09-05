@@ -6,11 +6,21 @@ def convert_100_to_celsius():
     # Print 'float' if it is a float or 'int' if it is an int
     # How do you know? Write a comment below your code explaining how you know which it is
 
+    temp = 100
+    celsius_100 = (temp-32) * 5/9
+    print(celsius_100)
+    print('float')
+    # we know it is a float because it has a decimal 
+
 #convert_100_to_celsius()
 
 def convert_0_to_celsius():
     # Convert a temperature of 0 degrees fahrenheit to celsius
     # Save this to a variable called celsius_0, and use print() to print out the value
+
+    temp = 0
+    celsius_0 = (temp-32) * 5/9
+    print(celsius_0)
 
 #convert_0_to_celsius()
 
@@ -18,6 +28,8 @@ def convert_34_2_to_celsius():
     # Convert a temperature of 34.2 degrees fahrenheit to celsius
     # Do this one all in one print statement without saving any variables
     
+    print((34.2-32) * 5/9)
+
 #convert_34_2_to_celsius()
 
 
@@ -27,10 +39,17 @@ def convert_34_2_to_celsius():
 def convert_5_to_fahrenheit():
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
 
+    temp = 5
+    fahrenheit_5 = (temp * 9/5) + 32
+    print(fahrenheit_5)
 #convert_5_to_fahrenheit()
 
 def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
+
+    print((30.2 * 9/5) + 32)
+    print((85.1 - 32) * 5/9)
+    
 
 #hotter_temp()
