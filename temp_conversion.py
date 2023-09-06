@@ -4,12 +4,12 @@ def convert_100_to_celsius():
     celsius_100 = (temp-32) * 5/9
     print(celsius_100)
     print('float')
+    # we know it is a float because it has a decimal 
 
     # Save this to a variable called celsius_100, and use print() to print out the value
     # Is the resulting temperature you get an integer or float?
     # Print 'float' if it is a float or 'int' if it is an int
-    # How do you know? Write a comment below your code explaining how you know which it is
-    # we know it is a float because it has a decimal 
+    # How do you know? Write a comment below your code explaining how you know which it is 
 
 # convert_100_to_celsius()
 
